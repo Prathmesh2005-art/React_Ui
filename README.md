@@ -45,4 +45,21 @@ A sleek and interactive **React UI demo** built with TypeScript, Vite, Tailwind 
    ```bash
    git clone https://github.com/Prathmesh2005-art/React_Ui.git
    cd React_Ui
+2. Install dependencies:
 
+   npm install
+   # or
+   yarn install
+
+
+3. Start the development server:
+
+   npm run dev
+   # or
+   yarn dev
+
+4. Run Storybook:
+
+   npm run storybook
+   # or
+   yarn storybook
