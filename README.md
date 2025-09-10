@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# React UI (React + TypeScript + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and interactive **React UI demo** built with TypeScript, Vite, Tailwind CSS, Framer Motion, and Storybook.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demo Preview
 
-## Expanding the ESLint configuration
+*(Add screenshots or a short GIF here to showcase UI interactions, dark mode toggle, animations, etc.)*
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Interactive UI Components**: `InputField`, `DataTable` with themes, responsiveness, and animation.  
+- **Dark Mode Toggle**: Smoothly switch themes across the app.  
+- **Animations**: Hover effects, pop-out inputs, cards with motion transitions.  
+- **Responsive Layout**: Mobile-first design using Tailwind's utility classes.  
+- **Storybook Integration**: Component-driven development previews via Storybook.  
+- **TypeScript Support**: Fully typed components for safer development and better DX.  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠 Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React** with **TypeScript**  
+- **Vite** as the build tool  
+- **Tailwind CSS** for styling  
+- **Framer Motion** for animations  
+- **Storybook** for component previews  
+- **ESLint** and **Prettier** for code quality  
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+ recommended)  
+- npm or yarn  
+
+### Setup Steps
+
+1. Clone the project:
+   ```bash
+   git clone https://github.com/Prathmesh2005-art/React_Ui.git
+   cd React_Ui
+
