@@ -4,12 +4,6 @@ A sleek and interactive **React UI demo** built with TypeScript, Vite, Tailwind 
 
 ---
 
-## 📸 Demo Preview
-
-*(Add screenshots or a short GIF here to showcase UI interactions, dark mode toggle, animations, etc.)*
-
----
-
 ## ✨ Features
 
 - **Interactive UI Components**: `InputField`, `DataTable` with themes, responsiveness, and animation.  
